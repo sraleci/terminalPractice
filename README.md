@@ -32,9 +32,10 @@ any paths you specify will be relative to your current directory. The current di
 can be changed using the ```cd``` command (meaning *Change Directory*).
 
 + The path ```.``` refers to the same directory relative to a specified directory (ie. the current directory).
-+ The path ```..`` refers to the parent directory relative to a specified directory.
++ The path ```..``` refers to the parent directory relative to a specified directory.
 
 In other words:
+
 1. **IF** your home directory (```~```) is located at ```/Users/bobsaget/```, and your current directory is ```~/Documents```
 2. **THEN** the paths ```/Users/elvispresley```, ```./../../elvispresley```, and ```~/../elvispresley``` are all the same.
 3. **THEN** the paths ```/Users/bobsaget/Documents/jsSnippets/numbers.js```, ```~/Documents/jsSnippets/numbers.js```, and ```jsSnippers/numbers.js``` are all the same.
