@@ -82,8 +82,8 @@ This creates a directory named *projectFolder* in the *Documents* directory loca
 ### rm - Remove
 Use this command to remove files. The command can also be used to remove
 folders, but requires you to specify additional options. To remove a folder,
-use ```rm -rf```. The ```-rf``` is an option that stands for (**R**ecursive
-**F**orce). This tells ```rm``` to remove a directory and everything inside
+use ```rm -rf```. The ```-rf``` is an option that stands for _**R**ecursive
+**F**orce_. This tells ```rm``` to remove a directory and everything inside
 of it. 
 
 **Note:** It is also important to remember that there is no Trash Bin when
@@ -96,7 +96,9 @@ rm ~/Documents/projectFolder/index.html
 rm -rf ~/Documents/projectFolder
 ```
 
-The first deletes the index file. The second command removes the projectFolder directory.
+The first command deletes the index file. The second command removes the projectFolder directory.
+Of course, you could accomplish the same goal by only running the second command; but this example
+demonstrates the difference between deleting a file and deleting a directory.
 
 ### vim - VI iMproved (Vi is the built in Unix text editor)
 Use this command to edit files.
